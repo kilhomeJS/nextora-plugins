@@ -1,0 +1,17 @@
+{
+  "name": "nextora",
+  "description": "Claude plugins from Nextora — the CRM that builds itself.",
+  "owner": {
+    "name": "Nextora",
+    "url": "https://nextora.co"
+  },
+  "plugins": [
+    {
+      "name": "nextora",
+      "source": "./plugin",
+      "description": "Work in your Nextora CRM from Claude and build forms, reports, dashboards, automations and campaigns with Nextora's AI workshops.",
+      "category": "productivity",
+      "tags": ["crm", "sales", "marketing"]
+    }
+  ]
+}

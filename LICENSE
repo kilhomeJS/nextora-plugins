@@ -1,0 +1,36 @@
+Nextora Proprietary License
+
+Copyright (c) 2026 Nextora. All rights reserved.
+
+This repository and everything in it (the "Software") is proprietary to
+Nextora. It is published only so that Claude can install the Nextora plugin.
+
+1. Permitted use. You may install and run the Software, unmodified, solely to
+   connect Claude to a Nextora workspace that you are authorised to use, under
+   the Nextora Terms of Service (https://nextora.co/terms). Nothing else is
+   licensed.
+
+2. Restrictions. Without Nextora's prior written permission you may not:
+   (a) copy, modify, translate or create derivative works of the Software or
+       any part of it, including its skills, prompts and instructions;
+   (b) publish, distribute, sublicense, sell, rent or otherwise make the
+       Software available to anyone else;
+   (c) use the Software, or anything derived from it, with any product or
+       service other than Nextora, or to build, operate or improve a product
+       or service that competes with Nextora;
+   (d) remove or alter this notice.
+
+3. Ownership. Nextora retains all right, title and interest in the Software.
+   Viewing the Software in this repository grants no rights beyond section 1.
+
+4. Termination. This licence ends automatically if you breach it, or when you
+   stop being an authorised user of a Nextora workspace. On termination you
+   must uninstall and delete the Software.
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+   NO EVENT SHALL NEXTORA BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+Questions and permission requests: legal@nextora.co

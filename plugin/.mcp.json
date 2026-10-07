@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nextora": {
+      "type": "http",
+      "url": "https://mcp.nextora.co/mcp"
+    }
+  }
+}
