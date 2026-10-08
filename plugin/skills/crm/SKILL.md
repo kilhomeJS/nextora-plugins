@@ -29,6 +29,23 @@ These habits keep changes correct and visible to them.
   `projects`, `comms`, `marketing`, `knowledge`, `analytics`, `files`, `erp`,
   `creation`) and called through `catalog_execute`.
 
+## Show it as a card
+
+In claude.ai and the Claude apps Nextora draws live cards. When the person
+wants to SEE their work rather than read a summary, call the card tool and keep
+your text short — the card carries the detail:
+
+- "what's on today", "утренняя сводка", "что горит" → `nextora_my_day`
+- a specific deal, lead, contact or company → resolve its id, then
+  `nextora_show_record`
+- "how's the pipeline", "покажи воронку" → `nextora_show_pipeline`
+
+The person can act inside a card — tick tasks off, move a deal to another
+stage, drag deals on the board. Each change made there reaches you as context
+("the user moved the deal … to …"): take it as done, do not repeat it, and do
+not call the card tool again just to refresh. Use `crm_get` / `crm_query` for
+your own lookups mid-task; the card tools are for showing.
+
 ## Change
 
 - **Preview first** whenever a change touches more than one record or moves a
