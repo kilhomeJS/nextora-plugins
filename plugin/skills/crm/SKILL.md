@@ -27,7 +27,8 @@ These habits keep changes correct and visible to them.
   Anything else — forms, projects, knowledge base, ERP, settings — is found with
   `catalog_search` (pass `category` when you know the area: `crm`, `pipelines`,
   `projects`, `comms`, `marketing`, `knowledge`, `analytics`, `files`, `erp`,
-  `creation`) and called through `catalog_execute`.
+  `creation`) and run through `catalog_execute` (tools that only read) or
+  `catalog_execute_write` (tools that change data — Claude asks first).
 
 ## Show it as a card
 

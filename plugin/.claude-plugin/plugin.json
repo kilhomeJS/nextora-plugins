@@ -1,8 +1,8 @@
 {
   "name": "nextora",
   "displayName": "Nextora",
-  "version": "0.5.0",
-  "description": "Work in your Nextora CRM from Claude: find and update leads, deals and tasks, and build forms, reports, dashboards, automations, campaigns, bots and more through Nextora's AI workshops.",
+  "version": "0.6.0",
+  "description": "Work in your Nextora CRM from Claude: your day, records, pipeline and numbers as live cards; bulk changes you check before they're written; inbox triage and table import; and forms, reports, automations, campaigns, bots and more built by Nextora's AI workshops.",
   "author": {
     "name": "Nextora",
     "url": "https://nextora.co"
@@ -18,7 +18,7 @@
   ],
   "license": "LicenseRef-Nextora-Proprietary",
   "icon": "./icon.png",
-  "documentationUrl": "https://github.com/kilhomeJS/nextora-plugins#readme",
+  "documentationUrl": "https://mcp.nextora.co/docs",
   "supportUrl": "https://github.com/kilhomeJS/nextora-plugins/issues",
   "privacyPolicyUrl": "https://nextora.co/privacy",
   "termsOfServiceUrl": "https://nextora.co/terms"

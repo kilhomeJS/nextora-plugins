@@ -31,8 +31,10 @@ The tools are `creation_discover`, `creation_list`, `creation_start`,
 
 If they are not in your tool list, they live in the Nextora catalog: call
 `catalog_search` **with `category: "creation"`** (a plain-language search ranks
-other tools first), then call each one through `catalog_execute` with
-`{ "name": "<tool>", "arguments": { … } }`.
+other tools first), then call each one with `{ "name": "<tool>", "arguments": { … } }`
+through `catalog_execute` when it only reads (`creation_discover`, `creation_list`,
+`creation_get`) or `catalog_execute_write` when it changes something
+(`creation_start`, `creation_continue`, `creation_cancel`, `creation_apply`).
 
 If the catalog returns `creation_get` but not `creation_start`, this
 connection may read workshops but not build. Tell the user to remove and re-add
