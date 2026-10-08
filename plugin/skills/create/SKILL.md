@@ -72,12 +72,23 @@ starting a new one.
 
 ## 5. Follow the workshop
 
+**In claude.ai and Claude Desktop, `creation_start` opens a live Nextora card**
+that follows the workshop by itself: it shows the progress, asks the
+workshop's question with answer buttons, shows the draft and has **Принять /
+Accept**. There, do not poll — tell the person they can answer and accept in
+the card or in the chat, and read the workshop with `creation_get` only when
+you need its state (they ask, or before you act on it). When the card tells
+you the person answered or accepted something, take it as done: do not answer
+the same question again and never apply the same workshop twice.
+
+Without a card (Claude Code and other text clients), follow it yourself:
+
 Call `creation_get` with the workshop id and act on what it says. Use
 `session.generation` as `expected_generation` in every follow-up call.
 
 | `status` | What it means | What you do |
 |---|---|---|
-| `queued`, `running` | Building | Check again. Between checks, tell the user it is building (the current `steps` are a good progress line). A build takes seconds to a few minutes. If it is still running after several checks, give the user `session.url` and offer to look again later. |
+| `queued`, `running` | Building | Check again, no more often than every ten seconds or so. Between checks, tell the user it is building (the current `steps` are a good progress line). A build takes seconds to a few minutes. If it is still running after several checks, give the user `session.url` and offer to look again later. |
 | `waiting_for_user` (or `session.question` is set) | The workshop has a question | Ask the user `question.text` in their language and offer `question.chips` as options. Send the answer with `creation_continue` — `action: "answer"`, `question_key: question.key`, `value`. Answer yourself only when the user already said it plainly in this conversation, and say that you did. |
 | `draft` (`session.status: "ready"`) | Draft ready | Summarize what will be created — names, fields, steps, blocks — and anything listed in `session.omitted`. Ask the user to confirm or change it. A change goes back as `creation_continue` with `action: "refine"` and the change in words. |
 | `failed` | Build failed | Show `session.errorMessage` in one line and offer a retry: `creation_continue` with `action: "retry"`. Finished steps survive a retry. |

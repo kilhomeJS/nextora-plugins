@@ -35,6 +35,10 @@ and your workspace's access rules, and never sees anything you cannot.
 You can also just ask — "how many deals are in negotiation?", "make a lead form
 for the website" — and Claude picks the right one.
 
+In claude.ai and Claude Desktop a workshop appears as a live Nextora card: the
+build's progress, the workshop's question with answer buttons, the draft, and
+**Accept** to create it. Nothing is created until you accept.
+
 ## Disconnect
 
 Remove the connection in Claude: `/mcp` in Claude Code, or Settings →
