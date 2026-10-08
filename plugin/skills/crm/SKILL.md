@@ -39,6 +39,11 @@ your text short — the card carries the detail:
 - a specific deal, lead, contact or company → resolve its id, then
   `nextora_show_record`
 - "how's the pipeline", "покажи воронку" → `nextora_show_pipeline`
+- "how are we doing", "итоги месяца" → `nextora_show_metrics` (the person
+  switches week / month / quarter / year in the card)
+- "find …", "найди …" → `nextora_search`
+- adding a lead, contact, company, deal or task they'd want to check →
+  `nextora_new_record`, pre-filled from the conversation
 
 The person can act inside a card — tick tasks off, move a deal to another
 stage, drag deals on the board. Each change made there reaches you as context
@@ -47,6 +52,11 @@ not call the card tool again just to refresh. Use `crm_get` / `crm_query` for
 your own lookups mid-task; the card tools are for showing.
 
 ## Change
+
+- **Several records at once → show it first.** Propose the change with
+  `nextora_review_changes` (each record: old → new). The person unticks what to
+  leave, applies it in the card, and can put it back. That tool writes nothing;
+  wait for the card to tell you what was applied, and never apply it again.
 
 - **Preview first** whenever a change touches more than one record or moves a
   deal: run the write with `dry_run: true`, show the user what will change and
