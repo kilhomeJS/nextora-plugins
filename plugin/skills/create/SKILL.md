@@ -74,8 +74,10 @@ starting a new one.
 
 **In claude.ai and Claude Desktop, `creation_start` opens a live Nextora card**
 that follows the workshop by itself: it shows the progress, asks the
-workshop's question with answer buttons, shows the draft and has **Принять /
-Accept**. There, do not poll — tell the person they can answer and accept in
+workshop's question with answer buttons, shows the draft as the thing itself
+(a report's numbers, a form's questions, an automation's steps, a campaign's
+letters exactly as they will be mailed) and has **Принять / Accept**. So keep
+your own summary of the draft to a line or two. There, do not poll — tell the person they can answer and accept in
 the card or in the chat, and read the workshop with `creation_get` only when
 you need its state (they ask, or before you act on it). When the card tells
 you the person answered or accepted something, take it as done: do not answer

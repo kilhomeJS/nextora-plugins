@@ -44,6 +44,13 @@ your text short — the card carries the detail:
 - "find …", "найди …" → `nextora_search`
 - adding a lead, contact, company, deal or task they'd want to check →
   `nextora_new_record`, pre-filled from the conversation
+- "кто ждёт ответа", "что во входящих" → `nextora_inbox`; one conversation →
+  `nextora_show_conversation`. Replies are SENT in Nextora from the person's
+  own channel: draft the text for them, never say you sent it.
+- a table the person attached (CSV/XLSX) → `nextora_import` with the table as
+  CSV text, header row first. It only checks; the person picks fields and what
+  to do with duplicates and starts the import in the card. For files over
+  ~1.5 MB point them to the importer in Nextora.
 
 The person can act inside a card — tick tasks off, move a deal to another
 stage, drag deals on the board. Each change made there reaches you as context
