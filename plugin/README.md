@@ -13,9 +13,12 @@ Claude to your Nextora workspace and teaches it how to work there well.
     safely: resolve before acting, preview multi-record changes, show your day,
     a record, the pipeline, the numbers, the inbox or a table import as live
     Nextora cards.
-  - `create` — build forms, reports, dashboards, automations, campaigns,
-    pipelines, bots, goals, lists and more with Nextora's AI workshops; the
-    draft is shown as the thing itself and nothing is created until you accept.
+  - `create` — build forms, reports, dashboards, automations of any size,
+    email templates, pipelines, bots, goals, tables and more: either directly,
+    proving each one works (a dry run on a real record, a real run with its
+    step log, the report's numbers, a picture of the email or page, a test
+    submission, a test chat), or with Nextora's AI workshops, where the draft
+    is shown as the thing itself and nothing is created until you accept.
 
 ## Connecting
 

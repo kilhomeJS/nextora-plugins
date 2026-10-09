@@ -1,8 +1,8 @@
 {
   "name": "nextora",
   "displayName": "Nextora",
-  "version": "0.6.0",
-  "description": "Work in your Nextora CRM from Claude: your day, records, pipeline and numbers as live cards; bulk changes you check before they're written; inbox triage and table import; and forms, reports, automations, campaigns, bots and more built by Nextora's AI workshops.",
+  "version": "0.7.0",
+  "description": "Work in your Nextora CRM from Claude: your day, records, pipeline and numbers as live cards; bulk changes you check before they're written; inbox triage and table import; and forms, reports, automations, emails, bots and more — built directly and checked (dry runs, real runs with step logs, report numbers, previews, test submissions), or drafted by Nextora's AI workshops.",
   "author": {
     "name": "Nextora",
     "url": "https://nextora.co"
